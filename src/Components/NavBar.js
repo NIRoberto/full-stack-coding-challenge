@@ -20,7 +20,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#link"
-                className="bg-btn px-6 py-3  rounded-lg  mt-1 text-black"
+                className="bg-btn  px-4 lg:px-6  py-2 lg:py-3  rounded-lg  mt-1 text-black"
               >
                 <button className="">Create free account</button>
               </a>

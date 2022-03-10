@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <main className="flex p-4 content-center justify-center items-center h-screen">
+      <main className="  flex flex-col md:flex-row p-4 content-center justify-center items-center md:h-screen">
         <div className="basis-2/4  p-4 h-full pt-32 ">
           <h1 className="font-bold text-6xl py-5 px-1 ">
             Modern online and offline payments
@@ -32,7 +32,7 @@ const Home = () => {
           <img src={img} alt="" className="w-4/5 h-4/5" />
         </div>
       </main>
-      <div className="bg-w h-screen p-4 flex flex-col">
+      <div className="bg-w md:h-screen p-4 flex flex-col">
         <div>
           <h1 className="font-bold text-4xl py-5 px-1 ">
             Simple, easy payments
@@ -41,7 +41,7 @@ const Home = () => {
             Building a business is hard. Getting paid shouldn't be.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex  flex-col-reverse md:flex-row">
           <div className="basis-2/4">
             <img src={img2} alt="" />
           </div>
@@ -78,7 +78,7 @@ const Home = () => {
           Thousands of organizations of all sizes trust Paystack to grow their
           business.
         </p>
-        <section className="grid grid-cols-3 gap-4 grid-rows-1 my-20">
+        <section className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 grid-rows-1 sm:grid-rows-2 md:grid-rows-1 my-20">
           <article className="flex flex-col p-4 item-center justify-between shadow-lg rounded-lg bg-w">
             <div className="basis-2/5">
               <img src={img3} alt="" className="h-40 w-40" />
