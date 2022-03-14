@@ -20,5 +20,8 @@ module.exports = {
       text: "#0000",
     },
   },
-  plugins: [],
+    plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
 };

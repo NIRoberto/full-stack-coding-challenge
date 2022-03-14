@@ -15,7 +15,7 @@ const Footer = () => {
         <div>
           <h1 className="font-bold text-2xl py-5 px-1 ">Contact</h1>
           <p className="text-btn ml-2">paystack@gmail.com</p>
-          <ul className="grid p-2 grid-cols-4  w-2/5 md:w-3/5">
+          <ul className="grid p-2 grid-cols-4 w-2/3 sm:w-2/5 md:w-3/5">
             <li>
               <a href="#link">
                 <BsFacebook />

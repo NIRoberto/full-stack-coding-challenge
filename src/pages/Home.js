@@ -72,7 +72,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <main className="p-4">
+      <main className="p-4 md:mt-8">
         <h1 className="font-bold text-2xl md:text-4xl lg:text-4xl py-5 px-1 ">
           Trusted by 60,000+ businesses
         </h1>
