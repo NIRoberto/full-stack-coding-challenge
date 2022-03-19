@@ -17,7 +17,7 @@ const NavBar = () => {
           <ul className="flex">
             <Link  to="/login">
             <li className="mr-2 sm:mr-6">
-              <a href="#Link" className=" text-sm sm:text-xl lg:text-xl">
+              <a href="#Link" className="text-sm lg:text-base">
                 Login
               </a>
             </li>
@@ -28,7 +28,7 @@ const NavBar = () => {
                 href="#link"
                 className="bg-btn px-2 sm:px-4 lg:px-6  py-1 sm:py-2 lg:py-3  rounded-lg  mt-1 text-black"
               >
-                <button className=" text-sm sm:text-base">Create account</button>
+                <button className=" text-sm">Create account</button>
               </a>
             </li>
             </Link>

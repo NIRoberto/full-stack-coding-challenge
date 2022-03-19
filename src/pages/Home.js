@@ -7,8 +7,11 @@ import img4 from "../assets/enterp.svg";
 import img5 from "../assets/organ.svg";
 import { AiOutlineRight } from "react-icons/ai";
 import Footer from "../Components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  document.title = "Paystack | Home";
+
   return (
     <div>
       <NavBar />
@@ -22,9 +25,11 @@ const Home = () => {
             the world
           </p>
           <div className="flex content-center">
-            <button className="bg-btn px-2 md:px-10  py-1 md:py-4 text-sm  rounded-lg  mt-1 text-black">
+            <Link  to="/register">
+            <button className="bg-btn px-2 md:px-4 lg:px-6  py-1 md:py-3 text-sm  rounded-lg  mt-1 text-black">
               Create account
             </button>
+            </Link>
             <span className="text-center text-sm ml-2 md:ml-4 mt-2 md:mt-5">
               Or contact for sales
             </span>
@@ -34,7 +39,7 @@ const Home = () => {
           <img src={img} alt="" className="w-4/5 h-4/5" />
         </div>
       </main>
-      <div className="bg-w md:h-screen p-4 flex flex-col">
+      <div className="bg-w  p-4 flex flex-col">
         <div>
           <h1 className="font-bold text-2xl md:text-4xl lg:text-4xl py-5 px-1">
             Simple, easy payments
@@ -100,7 +105,7 @@ const Home = () => {
                 <AiOutlineRight className=" mt-6 md:mt-5 border-2 text-sm md:text-2xl border-btn border-solid rounded-full" />
                 {/* </span> */}
 
-                <span className="text-black  text-sm md:text-xl py-4 ml-2 mt-1 underline px-1">
+                <span className="text-black  text-sm  md:text-xl py-4 ml-2 mt-1 underline px-1">
                   Learn more
                 </span>
               </a>

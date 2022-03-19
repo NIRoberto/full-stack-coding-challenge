@@ -61,17 +61,17 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Enter email"
-              className="border-2 w-2/4 md:w-3/4 focus:border-log border-solid py-2 px-4 rounded-lg mr-2 md:mr-4 border-b-log"
+              className="form-input mr-2 rounded-lg"
             />
-            <button className="bg-btn py-2 px-4 md:px-8 rounded-lg">
+            <button className="bg-btn hover:bg-log  py-2 px-4 md:px-8 rounded-lg">
               {" "}
               Send
             </button>
           </form>
         </div>
       </footer>
-      <div className="bg-w py-4 border-t-2 border-opacity-0 border-grey">
-        <p className="text-center text-grey">Powered by Robert Niyitanga</p>
+      <div className="bg-w py-4 border-t-0  border-log">
+        <p className="text-center opacity-20 text-grey">Powered by Robert Niyitanga</p>
       </div>
     </IconContext.Provider>
   );
